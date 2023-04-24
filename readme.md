@@ -84,8 +84,8 @@ Neste projeto o aluno aprenderá a desenvolver um sistema WEB de gerenciamento d
 
 ## Github
 
-![imagem](https://img.shields.io/github/forks/Mikallina) [Grupo 1](https://github.com/TExpertsG1/hotelg1)
+
 
 ## Licença
 
-[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
