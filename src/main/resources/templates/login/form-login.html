@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="stylesheet" th:href="@{/css/sistema/reset.css}"/>
+    <link rel="stylesheet" th:href="@{/css/sistema/login.css}"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/54d71879ed.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<div class="principal">
+    <header>
+
+        <section>
+            <div>
+                <div class="userBar">
+                    <a
+                            id="login"
+                            onclick="window.location.href='/index'"
+                    >Home</a
+                    >
+                </div>
+                <span class="mainHeader">
+                            <a th:href="@{/index.html}"
+                            ><img
+                                    height="100%"
+                                    th:src="@{/imagens/logo_1800.png}"
+                            /></a>
+                        </span>
+                <div class="nomeLogo">
+                    <span>Hotel 1800</span>
+                </div>
+            </div>
+        </section>
+    </header>
+</div>
+<main>
+    <div>
+        <form action="/login" id="form-login" method="post">
+            <h1 class="mainText">Faça seu login</h1>
+            <span class="inputContainer">
+                    <label>CPF</label>
+                    <input id="cpf" name="cpf" type="text">
+                </span>
+            <span class="inputContainer">
+                    <label>Senha</label>
+                    <input id="senha" name="senha" type="password">
+                </span>
+            <button type="submit">Fazer login</button>
+
+            <span class="invalid" th:text="${usuarioInvalido}"></span>
+            <br/>
+        </form>
+
+        <hr/>
+        <p>
+            Ao fazer login, você concorda com nossos
+        <p>
+            <a class="formLinks">Termos e Condições</a> e <a class="formLinks">Declaração de Privacidade</a>
+        </p>
+        </p>
+        <hr/>
+        <p>
+            Todos os direitos reservados.
+        </p>
+        <p>
+            Direitos autorais (2023) - Nossohotel.com®
+        </p>
+    </div>
+</main>
+</body>
+</html>

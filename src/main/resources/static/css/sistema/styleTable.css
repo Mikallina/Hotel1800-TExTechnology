@@ -1,0 +1,51 @@
+/* Corpo da página */
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin-top: 16px;
+}
+
+.form p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6px 0;
+    width: 100%;
+}
+
+.form button {
+    margin-top: 20px;
+    padding: 8px 12px;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+b {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+span {
+  display: inline-block;
+  margin-bottom: 10px;
+}

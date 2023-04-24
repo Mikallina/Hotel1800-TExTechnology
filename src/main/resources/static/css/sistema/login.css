@@ -1,0 +1,202 @@
+* {
+  font-family: "Baskerville";
+  box-sizing: border-box;
+  line-height: 1.5rem;
+}
+
+/*----Default Values----*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Baskerville";
+  color: #82694e;
+  background-color: #fff3f1;
+}
+
+a {
+  all: unset;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #fff3f1;
+  transition: background-color 0.6s ease;
+}
+
+header {
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.25rem;
+  font-style: bold;
+  line-height: 2.25rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 5rem;
+  color: #ad9479;
+}
+
+.principal {
+    margin: 1px 30px;
+}
+
+/*-----Header-------*/
+header {
+    background-attachment: fixed;
+    background-image: url("/imagens/imagemHeader.jpg");
+}
+.nomeLogo {
+    text-align: center;
+    font-family: "Baskerville";
+    font-size: 3.0rem;
+    color: #ebcc5a;
+}
+
+.userBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px 20px 20px;
+    gap: 0.3rem;
+    color: #fff3f1;
+}
+
+.userBar a {
+    display: flex ;
+    min-width: 60px;
+    padding: 0.5rem;
+    justify-content: center;
+    background-color: #ad9479;
+    border-radius: 0.5rem;
+    color:#ffffff;
+}
+
+.userBar a:hover {
+    font-weight: bold;
+    background-color: #82694e;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainHeader img {
+    max-height: 6rem;
+    max-width: 6rem;
+}
+
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.navbar a {
+  padding: 0.5rem;
+  background-color: #ad9479;
+  border-radius: 0.5rem;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+  background-color: #82694e;
+}
+
+.invalid {
+    color: red;
+}
+
+/*-------- Form -------*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  font-size: 0.85rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mainText {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 0.15rem;
+}
+
+input {
+  width: 98%;
+  height: 1.5rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #ad9479;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #fff3f1;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: bold;
+  background-color: #82694e;
+}
+
+p {
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+}
+
+.formLinks {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #006ce4;
+}
+
+@media (max-width: 400px) {
+  header section:first-of-type {
+    max-width: 95%;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */
