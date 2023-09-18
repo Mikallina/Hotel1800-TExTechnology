@@ -71,7 +71,7 @@ Projeto usado como apresentação de conclusão do Curso.
 - Instale o Visual Studio Code
 - Abra os exemplos em HTML em seu navegador
 - Teste os exemplos no Console do Navegador `CTRL+SHIFT+C`
-
+- http://localhost:8080
 ---
 
 ## Colaboradores do Projeto 
